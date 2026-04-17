@@ -3,53 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CALCULATOR IN MAKING</title>
+    <title>Student  Web Calculator</title>
 <link rel="stylesheet" href="style.css">
-</head>
+</head> 
+
 <body>
+    <header>
+
+
+    </header>
    <main>
-<!-- CALCULATOR SECTION -->
+   <section>
+<button type="button" onclick="alert('Hi Student, Dont forget to give thump ub to Microtech Africa on Our Social media platforms, Celebrate Microtech Company for thier un ending support to continously training techies that build you this freely to use.')">CLICK ME PLEASE!</button>
+
+ <div id="body_container" >
+
+<h3 class="tag">Hello Students, This is a free open web app calculator mainly built for students to use for their calculations, this will help you do your mathematical Calaculations, It will be upgradedd very soon for more features and functionality</h4>
+<h3 class="footer">&copy; Courtesy of Microtech Africa (MTA) 2026 Cohort 5</h3>
+     <!-- CALCULATOR SECTION -->
 <div class="calculator_wrapper">
 <input type="text" id="display" class="display" readonly placeholder="0">
 <div class="buttons">
-    <button onclick="erase()">C</button>
+    <button onclick="erase()"  class="operator-butt">C</button>
     <button onclick="eraseLast()">DEL</button>
-    <button onclick="append('/')">/</button>
-    <button onclick="append('*')">*</button>
-
-    <button onclick="append('7')">7</button>
-    <button onclick="append('8')">8</button>
+    
     <button onclick="append('9')">9</button>
-    <button onclick="append('-')">-</button>
+    <button onclick="append('8')">8</button>
+     <button onclick="append('7')">7</button>
+    <button onclick="append('6')">6</button> 
+    <button onclick="append('5')">5</button>
 
     <button onclick="append('4')">4</button>
-    <button onclick="append('5')">5</button>
-    <button onclick="append('6')">6</button>
-    <button onclick="append('+')">+</button>
+     <button onclick="append('+')" class="operator-butt">+</button>
 
-    <button onclick="append('1')">1</button>
-    <button onclick="append('2')">2</button>
+
     <button onclick="append('3')">3</button>
-    <button onclick="append('%')">%</button>
+     <button onclick="append('2')">2</button>
+     <button onclick="append('1')">1</button>
+     <button onclick="append('0')">0</button>
+    <button onclick="append('*')">*</button>
+    <button onclick="append('/')">/</button>
+     <button onclick="append('.')">.</button>
+     <button onclick="append('-')"  class="operator-butt">-</button>
+    
+    <button onclick="append('sin')">sin</button>
+    <button onclick="append('√')">√</button>
+    <button onclick="append('log')">log</button>
+    <button onclick="append('cos')">cos</button>
+    <button onclick="append('^')">^</button>
+    <button onclick="append('e')">e</button>
+    <button onclick="append('cos')">cos</button>
+    
+    
+    <button onclick="append('tan')"class="operator-butt">tan</button>
+    <button onclick="append('RAD')"  class="operator-butt">RAD</button>
+    <button onclick="append('ln')"  class="operator-butt">ln</button>
 
-    <button onclick="append('0')">0</button>
-    <button onclick="append('.')">.</button>
-    <button class="equal" onclick="calculation()">=</button>
+
+    <button class="equal" onclick="calculation()"class="operator-butt">=</button>
    
 
-
 </div>
 
-
-
 </div>
+</div>
+    </div>
+
+   </section>
+
+
+
+ </div>
+
+
 
 
    </main>
 <footer>
-
-
-</footer>
+  
+<br>
+ </footer>
 <script src="script.js"></script>
 </body>
 </html>

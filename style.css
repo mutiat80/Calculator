@@ -1,74 +1,108 @@
 *{
     margin: 0;
-    padding: 0;
+   padding: 0;
+  
+}
 body{
 font-family: 'Times New Roman', Times, serif;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: lab(95.68% -2.31 -0.82);
-min-height: 100vh;
+background-color: #d6dfdf;
+min-height: 90vh;
 
 }
 
-}
 .calculator_wrapper{
-width: 250px;
-background-color: #0d0c0c;
+width: 900px;
+background-color: #ffffff;
 padding: 20px;
 border-radius: 13px;
- box-shadow:12px 14px 10px lab(86.49% 0.68 0.23);  
+ box-shadow:12px 14px 10px lab(75.59% -46.55 -1.43);  
+overflow: hidden;
 }
 
 .display{
-    width: 250px;
-    height: 35px;
+    width: 900px;
+    height: 60px;
     font-size: 35px;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid wheat;
+    border: 1px solid rgb(184, 213, 42);
     border-radius: 5px;
     box-sizing: border-box;
+    text-align: right;
+    
 }
 
 button{
-    height: 40px;
+    width: 100px;
+    height: 100px;
     font-size: 22px;
     border: none;
-    border-radius: 2px;
-    background-color: hsla(34, 96%, 52%, 0.833);
+    border-radius: 50px;
+    background-color: hsla(120, 64%, 25%, 0.833);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor: pointer;
+    color: rgb(234, 229, 229);
 
 }
     
 .buttons{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     gap: 10px;
+    padding: 5px;
 
 }   
 
    button:hover{
-    background-color: rgb(255, 238, 0);
+    background-color: rgb(255, 0, 187);
    } 
     
     .equal{
         grid-column: span 2;
     } 
     
+   h1{
+font-size: 50PX;
+color: blueviolet;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   } 
+    
+    .operator-butt{
+
+background-color: orange;
+
+    }
+
+   
+     .operator-butt:hover{
+
+background-color: rgb(240, 204, 137);
+
+    }
+
+    
+    .tag{
+ width: 700px;
+ height: 60px;
+ border: 1px solid darksalmon;
+ padding: 60px;
+margin: 40px;
+background-color: rgb(0, 227, 49);
+margin-top:20px ;
+color: rgb(3, 9, 6);
+font-size: 20px;
+font-style: ;
+
+    }
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+.footer{
+    min-height:  2000;
+   display: flex;
+}
     
     
     
